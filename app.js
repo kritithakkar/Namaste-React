@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 /* Heading Using React */
 const heading = React.createElement(
   "hi",
