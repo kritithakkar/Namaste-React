@@ -3,15 +3,20 @@ import resList from "../utils/mockData";
 import { useState } from "react";
   
 const Body = () => {
+//Local State Varibale - Super powerful variable
+const [listOfRestaurants, setListOfRestaurant] = useState(resList);
     return (
       <div className="body">
         <div className="filter">
             <button className="filter-btn" onClick={()=>{
-                console.log("Button clicked");
+                const filteredList = listOfRestaurants.filter(
+                  (res) => res.avgRating >4
+                );
+                setListOfRestaurant(filteredList);
             }}>Top Rated Restaurants</button>
         </div>
         <div className="res-container">
-        {resList.map((restaurant) => (
+        {listOfRestaurants.map((restaurant) => (
           <RestaurantCard key={restaurant.id} resData = {restaurant} />
         ))}
           {/* <RestaurantCard resData={resList[0]} />

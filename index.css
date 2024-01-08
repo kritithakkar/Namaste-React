@@ -2,11 +2,11 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid red;
-  background-color: antiquewhite;
+  background-color: rgb(116, 201, 234);
 }
 .logo {
-  width: 110;
-  height: 100px;
+  width: 90;
+  height: 70px;
   padding: 10px;
   border-radius: 50%;
   overflow: hidden;
