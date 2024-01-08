@@ -37,7 +37,7 @@ const resList = [
     areaName: "Brigade Road",
     costForTwo: "₹400 for two",
     cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
-    avgRating: 4.3,
+    avgRating: 3.3,
   },
   {
     id: "279060",
@@ -64,7 +64,7 @@ const resList = [
       "Keto",
       "Healthy Food",
     ],
-    avgRating: 4.7,
+    avgRating: 3.7,
   },
   {
     id: "614642",
@@ -117,7 +117,7 @@ const resList = [
       "American",
       "Asian",
     ],
-    avgRating: 4.5,
+    avgRating: 3.5,
   },
   {
     id: "464509",
@@ -147,7 +147,7 @@ const resList = [
     areaName: "Koramangala",
     costForTwo: "₹250 for two",
     cuisines: ["Bakery"],
-    avgRating: 4.6,
+    avgRating: 3.9,
   },
   {
     id: "3241",
